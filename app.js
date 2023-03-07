@@ -61,7 +61,7 @@ function checkDraw() {
 
 function endGame(winningPlayer) {
   gameActive = false;
-  const messageText = winningPlayer ? `${winningPlayer} wins!` : "It's a draw!";
+  const messageText = winningPlayer ? `${winningPlayer} ชนะ!` : "It's a draw!";
   message.textContent = messageText;
   if (winningPlayer === 'X') {
     playerScore++;
