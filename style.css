@@ -1,0 +1,58 @@
+#score {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+#score > div {
+  display: flex;
+  align-items: center;
+}
+
+#score > div > span:first-child {
+  margin-right: 5px;
+}
+
+#score > div > span:last-child {
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+#board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.cell {
+  box-sizing: border-box;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cell:hover {
+  background-color: #eee;
+}
+
+#message {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+}
+
+h1 {
+  text-align: center;
+}
